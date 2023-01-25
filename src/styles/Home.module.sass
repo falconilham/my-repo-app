@@ -1,0 +1,16 @@
+.main
+  display: grid
+  justify-content: space-between
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-gap: 10px
+  align-items: center
+  padding: 6rem
+  min-height: 100vh
+
+  @media (max-width: 995px)
+    grid-template-columns: 1fr 1fr 1fr
+  @media (max-width: 767px)
+    grid-template-columns: 1fr 1fr
+
+  @media( max-width: 600px)
+    grid-template-columns: 1fr
